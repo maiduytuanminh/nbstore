@@ -1,0 +1,135 @@
+{
+  "version": "1.0",
+  "intents": [
+    {
+      "name": "Default Welcome Intent",
+      "trainingPhrases": [
+        "Xin chào",
+        "Hello",
+        "Hi",
+        "Chào bạn",
+        "Chào shop",
+        "Tôi cần hỗ trợ"
+      ],
+      "responses": [
+        "Xin chào! Tôi là trợ lý AI của shop. Tôi có thể giúp bạn:\n🛍️ Tìm sản phẩm\n📦 Kiểm tra đơn hàng\n🚚 Thông tin giao hàng\n💳 Chính sách đổi trả\nBạn cần hỗ trợ gì ạ?"
+      ]
+    },
+    {
+      "name": "Product Inquiry",
+      "trainingPhrases": [
+        "Tôi muốn tìm sản phẩm",
+        "Có sản phẩm gì hay không",
+        "Cho tôi xem sản phẩm",
+        "Sản phẩm nào đang hot",
+        "Tìm điện thoại",
+        "Có laptop không",
+        "Sản phẩm mới nhất",
+        "Giá sản phẩm như thế nào",
+        "Có khuyến mãi gì không",
+        "sản phẩm"
+      ],
+      "responses": [
+        "Chúng tôi có rất nhiều sản phẩm chất lượng!\n\n📱 Điện thoại & Smartphone\n💻 Laptop & Máy tính\n🎧 Phụ kiện công nghệ\n👕 Thời trang\n🏠 Đồ gia dụng\n\nBạn quan tâm loại sản phẩm nào? Hoặc bạn có thể:\n- Vào trang \"Sản phẩm\" để xem tất cả\n- Dùng thanh tìm kiếm để tìm sản phẩm cụ thể\n- Xem mục \"Khuyến mãi\" để săn deal hot! 🔥"
+      ]
+    },
+    {
+      "name": "Order Inquiry",
+      "trainingPhrases": [
+        "Kiểm tra đơn hàng của tôi",
+        "Đơn hàng tôi ở đâu",
+        "Tra cứu đơn hàng",
+        "Tình trạng đơn hàng",
+        "Đơn hàng đã giao chưa",
+        "Xem lịch sử mua hàng",
+        "Đơn hàng số",
+        "Hủy đơn hàng"
+      ],
+      "responses": [
+        "Để kiểm tra đơn hàng, bạn có thể:\n\n📋 **Cách 1:** Vào \"Đơn hàng của tôi\" trong tài khoản\n📋 **Cách 2:** Kiểm tra email xác nhận đơn hàng\n\n**Các trạng thái đơn hàng:**\n⏳ Chờ phê duyệt - Đơn hàng đang được xử lý\n✅ Đã phê duyệt - Chuẩn bị hàng\n💳 Đã thanh toán - Thanh toán thành công\n🚚 Đang giao - Shipper đang giao hàng\n📦 Đã giao - Giao hàng thành công\n\nBạn cần hỗ trợ gì thêm về đơn hàng?"
+      ]
+    },
+    {
+      "name": "Shipping Inquiry",
+      "trainingPhrases": [
+        "Thời gian giao hàng là bao lâu",
+        "Khi nào nhận được hàng",
+        "Phí ship bao nhiêu",
+        "Giao hàng có nhanh không",
+        "Có giao hàng miễn phí không",
+        "Phí vận chuyển",
+        "Giao hàng toàn quốc không"
+      ],
+      "responses": [
+        "📦 **Thông tin giao hàng:**\n\n⏰ **Thời gian giao hàng:**\n- Nội thành: 1-2 ngày\n- Ngoại thành: 2-3 ngày\n- Tỉnh khác: 3-5 ngày\n\n💰 **Phí ship:**\n- Đơn từ 500k: MIỄN PHÍ SHIP 🎉\n- Dưới 500k: 30k (nội thành), 50k (ngoại thành)\n\n🚚 **Đối tác vận chuyển:** Giao hàng nhanh, Giao hàng tiết kiệm\n\n📍 **Khu vực:** Giao hàng toàn quốc\n\nBạn có địa chỉ cụ thể để tôi tính phí ship chính xác không?"
+      ]
+    },
+    {
+      "name": "Return Policy",
+      "trainingPhrases": [
+        "Chính sách đổi trả như thế nào",
+        "Có được đổi hàng không",
+        "Đổi trả trong bao lâu",
+        "Hoàn tiền",
+        "Bảo hành sản phẩm",
+        "Lỗi sản phẩm",
+        "Không ưng ý muốn trả"
+      ],
+      "responses": [
+        "🔄 **Chính sách đổi trả:**\n\n✅ **Điều kiện đổi trả:**\n- Trong vòng 7 ngày kể từ khi nhận hàng\n- Sản phẩm chưa sử dụng, còn nguyên tem mác\n- Có hóa đơn mua hàng\n\n💸 **Hoàn tiền:**\n- Lỗi từ shop: Hoàn 100% + phí ship\n- Đổi ý: Hoàn tiền trừ phí ship\n\n🛡️ **Bảo hành:**\n- Điện tử: 12-24 tháng\n- Thời trang: 30 ngày\n- Phụ kiện: 6 tháng\n\n📞 **Liên hệ đổi trả:** Hotline 1900-xxxx\n\nBạn có sản phẩm nào cần đổi trả không?"
+      ]
+    },
+    {
+      "name": "Payment Inquiry",
+      "trainingPhrases": [
+        "Thanh toán như thế nào",
+        "Có những hình thức thanh toán nào",
+        "Thanh toán online",
+        "COD",
+        "Chuyển khoản",
+        "Ví điện tử"
+      ],
+      "responses": [
+        "💳 **Hình thức thanh toán:**\n\n💰 **Ship COD:** Thanh toán khi nhận hàng\n🏦 **Chuyển khoản:** Vietcombank, Techcombank, ACB\n📱 **Ví điện tử:** Momo, ZaloPay, ViettelPay\n💳 **Thẻ tín dụng:** Visa, Mastercard\n\n🎁 **Ưu đãi thanh toán:**\n- Chuyển khoản: Giảm 2%\n- Ví điện tử: Cashback 1%\n- COD: Không phí thêm\n\nBạn muốn thanh toán bằng hình thức nào?"
+      ]
+    },
+    {
+      "name": "Contact Info",
+      "trainingPhrases": [
+        "Liên hệ shop",
+        "Số điện thoại",
+        "Địa chỉ cửa hàng",
+        "Hotline",
+        "Email",
+        "Fanpage",
+        "Giờ làm việc"
+      ],
+      "responses": [
+        "📞 **Thông tin liên hệ:**\n\n🏪 **Cửa hàng:** 123 Đường ABC, Quận 1, TP.HCM\n📞 **Hotline:** 1900-xxxx (8:00-22:00)\n📧 **Email:** support@yourshop.com\n📘 **Facebook:** fb.com/yourshop\n💬 **Zalo:** Zalo OA YourShop\n\n⏰ **Giờ làm việc:**\n- Thứ 2-6: 8:00-22:00\n- Thứ 7-CN: 9:00-21:00\n\n🎧 **Chat trực tuyến:** 24/7 (như hiện tại)\n\nBạn cần hỗ trợ gì thêm?"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "name": "product-categories",
+      "entries": [
+        {
+          "value": "điện thoại",
+          "synonyms": ["smartphone", "mobile", "phone", "di động"]
+        },
+        {
+          "value": "laptop",
+          "synonyms": ["máy tính", "computer", "pc"]
+        },
+        {
+          "value": "phụ kiện",
+          "synonyms": ["accessory", "tai nghe", "case", "ốp lưng"]
+        },
+        {
+          "value": "thời trang",
+          "synonyms": ["quần áo", "fashion", "áo", "quần"]
+        }
+      ]
+    }
+  ]
+}

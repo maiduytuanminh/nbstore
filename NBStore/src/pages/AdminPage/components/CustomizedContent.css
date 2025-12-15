@@ -1,0 +1,244 @@
+.dashboard-container {
+    padding: 24px;
+    background: var(--dark-bg-primary);
+    min-height: 100vh;
+}
+
+.dashboard-header {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.dashboard-title {
+    color: white !important;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.dashboard-subtitle {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.1rem;
+}
+
+.main-stats .stat-card {
+    background: var(--dark-bg-secondary) !important;
+    border: 1px solid var(--dark-border) !important;
+    border-radius: var(--radius-lg) !important;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.main-stats .stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-xl);
+}
+
+.main-stats .stat-card .ant-card-body {
+    padding: 24px;
+}
+
+.stat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.stat-icon {
+    font-size: 2rem;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+}
+
+.stat-trend {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.stat-trend.positive {
+    color: #10b981;
+}
+
+.stat-trend.negative {
+    color: #ef4444;
+}
+
+.stat-progress {
+    margin-top: 16px;
+}
+
+.ant-statistic-title {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+}
+
+.ant-divider-horizontal {
+    border-color: var(--dark-border) !important;
+    margin: 32px 0 !important;
+}
+
+.additional-stats .mini-stat-card {
+    background: var(--dark-bg-secondary) !important;
+    border: 1px solid var(--dark-border) !important;
+    border-radius: var(--radius-lg) !important;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.additional-stats .mini-stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.additional-stats .mini-stat-card .ant-card-body {
+    padding: 20px;
+}
+
+.mini-stat-content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.mini-stat-icon {
+    font-size: 1.5rem;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.mini-stat-info {
+    flex: 1;
+}
+
+.mini-stat-title {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 0.9rem !important;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.mini-stat-value {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mini-stat-trend {
+    font-size: 0.8rem;
+    color: #10b981;
+    font-weight: 600;
+}
+
+.quick-actions {
+    margin-top: 32px;
+}
+
+.section-title {
+    color: white !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 20px !important;
+    font-weight: 600 !important;
+}
+
+.action-card {
+    background: var(--dark-bg-secondary) !important;
+    border: 1px solid var(--dark-border) !important;
+    border-radius: var(--radius-lg) !important;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.action-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-lg);
+}
+
+.action-card .ant-card-body {
+    padding: 20px;
+}
+
+.action-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 12px;
+    display: block;
+}
+
+.action-card .ant-typography {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .dashboard-header {
+        margin-bottom: 24px;
+    }
+
+    .dashboard-title {
+        font-size: 2rem;
+    }
+
+    .dashboard-subtitle {
+        font-size: 1rem;
+    }
+
+    .stat-icon {
+        width: 48px;
+        height: 48px;
+        font-size: 1.5rem;
+    }
+
+    .mini-stat-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .action-icon {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .dashboard-container {
+        padding: 16px;
+    }
+
+    .dashboard-title {
+        font-size: 1.8rem;
+    }
+
+    .main-stats .stat-card .ant-card-body {
+        padding: 16px;
+    }
+
+    .additional-stats .mini-stat-card .ant-card-body {
+        padding: 16px;
+    }
+
+    .action-card .ant-card-body {
+        padding: 16px;
+    }
+}
